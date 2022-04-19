@@ -20,20 +20,24 @@ const Navbar = () => {
 };
 
 const Main =  styled.div`
+h1{
+    margin-left: 4rem;
+}
 min-height: 5vw;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: #212529;
+background-color: #f1f1f1;
   margin-top: -9px;
   margin-left: -9px;
   margin-right: -9px;
-  color: white;
+  color: black;
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .navelements{
+    margin-right: 4rem;
     ul{
         
         
@@ -48,15 +52,16 @@ a{
             margin-left: 2rem;
             height: 3rem;
             width: 5rem;
-            border-top-left-radius: 20%;
-            border-bottom-right-radius:20% ;
-            border-bottom-left-radius:20% ;
-            border-top-right-radius:20% ;
+            border-radius: 10%;
+        
             transition-duration: 1s;
 
             
             :hover{
-                background-color: #00ffbb;
+                background-color:black;
+                a{
+                    color: white;
+                }
                 
             }
         }
